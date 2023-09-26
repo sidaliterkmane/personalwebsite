@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import pp from '../../public/images/pp.jpg'
+import pp from '../../public/images/profilePicture.jpg'
 
 import { motion } from "framer-motion"
 
