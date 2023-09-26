@@ -1,0 +1,14 @@
+export { default as htmlImage } from '../public/images/html.png';
+export { default as cssImage } from '../public/images/css.png';
+export { default as jsImage } from '../public/images/javascript.png';
+export { default as tsImage } from '../public/images/typescript.png';
+export { default as pythonImage } from '../public/images/python.png';
+export { default as javaImage } from '../public/images/java.png';
+export { default as reactImage } from '../public/images/react.png';
+export { default as nextImage } from '../public/images/next.png';
+export { default as scssImage } from '../public/images/scss.png';
+export { default as tailwindImage } from '../public/images/tailwind.png';
+export { default as nodeImage } from '../public/images/node.png';
+export { default as mongoImage } from '../public/images/mongo.png';
+export { default as gitImage } from '../public/images/git.png';
+export { default as figmaImage } from '../public/images/figma.png';

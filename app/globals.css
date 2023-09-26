@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+    background-color: rgba(255, 255, 255, 0.267);
+    color: white;
+}
+
+html, 
+body, 
+:root {
+    height: 100%;
+}
+
+body {
+    background-image: url('../public/images/grid.svg');
+    background-position: fixed;
+}
+
+h1, h2, h3, h4, h5, h6, p, div, span {
+    color: gray;
+}
+
+.gradient-border {
+    border-image: linear-gradient(to bottom right, #ffffff 0%, #525252 100%) 1;
+}
+
+.gradient {
+    background-image: linear-gradient(to bottom right, #ffffff 0%, #525252 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.buttonTranslate {
+    transform: scale(1);
+    transition: 0.3s ease;
+}
+
+.buttonTranslate:hover {
+    transform: scale(0.9);
+}
