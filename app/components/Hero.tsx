@@ -1,8 +1,6 @@
 "use client"
 
 import Image from "next/image"
-import Link from "next/link"
-import memoji from '../../public/images/memoji.png'
 import pp from '../../public/images/pp.jpg'
 
 import { motion } from "framer-motion"
